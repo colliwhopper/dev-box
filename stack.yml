@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+ development:
+  image: devbox:0.1
+  volumes:
+   - ~/devbox/:/root/
+   - ~/.aws:/root/.aws devbox:0.1
